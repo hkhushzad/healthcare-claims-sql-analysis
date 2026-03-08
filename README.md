@@ -32,7 +32,7 @@ The goal is to provide **actionable insights** for healthcare organizations, ins
 ---
 
 ## 📂 Project Structure
-```text
+
 medical-malpractice-sql-analysis
 │
 ├── data
