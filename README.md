@@ -59,7 +59,7 @@ No additional configuration is needed — just open and run the file to see the 
 
 ---
 
-medical-malpractice-sql-analysis
+## medical-malpractice-sql-analysis
 │
 ├── data
 │   ├── medicalmalpractice.csv        # Dataset of medical malpractice claims
