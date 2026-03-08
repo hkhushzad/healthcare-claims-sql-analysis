@@ -56,7 +56,7 @@ Run the script — it will:
 - Generate summary tables and insights
 
 No additional configuration is needed — just open and run the file to see the results.
-```
+
 ---
 
 medical-malpractice-sql-analysis
