@@ -41,6 +41,7 @@ medical-malpractice-sql-analysis
 ├── medical_malpractice_claims_analysis.sql   # SQL queries & analysis
 └── README.md                         # Project documentation
 
+---
 
 ## 📊 Dataset Columns
 | Column           | Description                                                         |
@@ -54,7 +55,8 @@ medical-malpractice-sql-analysis
 | insurance        | Type of insurance coverage                                          |
 | gender           | Gender of the physician                                             |
 
-```
+---
+
 ⚡ How to Run the SQL File
 Open your SQL tool (PostgreSQL, DBeaver, pgAdmin, or similar)
 Open the SQL file medical_malpractice_claims_analysis.sql
