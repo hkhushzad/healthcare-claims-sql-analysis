@@ -56,6 +56,7 @@ Run the script — it will:
 - Generate summary tables and insights  
 
 No additional configuration is needed — just open and run the file to see the results.
+```
 
 ---
 
@@ -68,4 +69,5 @@ medical-malpractice-sql-analysis
 │   ├── medicalmalpractice.csv        # Dataset of medical malpractice claims
 │   └── .gitkeep                      # Placeholder for folder structure
 ├── medical_malpractice_claims_analysis.sql   # SQL queries & analysis
-└── README.md                         # Project documentation
+└── README.md                       # Project documentation
+```
