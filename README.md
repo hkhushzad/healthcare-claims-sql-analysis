@@ -46,14 +46,10 @@ The goal is to provide **actionable insights** for healthcare organizations, ins
 
 ---
 
-## ⚡ How to Run the SQL File
-
-```text
-Open your SQL tool (PostgreSQL, DBeaver, pgAdmin, or similar)
-Open the SQL file `medical_malpractice_claims_analysis.sql`
-Run the script — it will:
-- Create the `claims_data` table
-- Import the CSV from `data/medicalmalpractice.csv`
-- Generate summary tables and insights
-
-No additional configuration is needed — just open and run the file to see the results.
+medical-malpractice-sql-analysis
+│
+├── data
+│   ├── medicalmalpractice.csv        # Dataset of medical malpractice claims
+│   └── .gitkeep                      # Placeholder for folder structure
+├── medical_malpractice_claims_analysis.sql   # SQL queries & analysis
+└── README.md                         # Project documentation
