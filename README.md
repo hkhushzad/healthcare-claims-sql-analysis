@@ -30,14 +30,3 @@ Window functions
 Conditional logic (CASE statements)
 Business-focused data analysis
 
-healthcare-claims-sql-analysis
-│
-├── data
-│   └── medicalmalpractice.csv
-│
-├── sql
-│   ├── 01_create_table.sql
-│   ├── 02_load_data.sql
-│   └── 03_analysis.sql
-│
-└── README.md
