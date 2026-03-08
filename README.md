@@ -32,16 +32,17 @@ The goal is to provide **actionable insights** for healthcare organizations, ins
 ---
 
 ## 📊 Dataset Columns
-| Column           | Description                                                         |
-| ---------------- | ------------------------------------------------------------------- |
-| amount           | Claim amount in USD                                                 |
-| severity         | Severity of the claim (numeric scale)                               |
-| age              | Age of the physician or involved party                              |
-| private_attorney | 1 = Yes, 0 = No                                                     |
-| marital_status   | Marital status: 0 = Divorced, 1 = Single, 2 = Married, 3 = Widowed, 4 = Unknown |
-| specialty        | Medical specialty of the physician                                  |
-| insurance        | Type of insurance coverage                                          |
-| gender           | Gender of the physician                                             |
+
+| Column           | Description                                                                 |
+| ---------------- | --------------------------------------------------------------------------- |
+| Amount           | Amount of the claim payment in dollars                                      |
+| Severity         | The severity rating of damage to the patient, from 1 (emotional trauma) to 9 (death) |
+| Age              | Age of the claimant in years                                                |
+| Private Attorney | Whether the claimant was represented by a private attorney                 |
+| Marital Status   | Marital status of the claimant                                              |
+| Specialty        | Specialty of the physician involved in the lawsuit                          |
+| Insurance        | Type of medical insurance carried by the patient                            |
+| Gender           | Patient gender                                                              |
 
 ---
 
@@ -59,10 +60,3 @@ No additional configuration is needed — just open and run the file to see the 
 
 ---
 
-medical-malpractice-sql-analysis
-│
-├── data
-│   ├── medicalmalpractice.csv        # Dataset of medical malpractice claims
-│   └── .gitkeep                      # Placeholder for folder structure
-├── medical_malpractice_claims_analysis.sql   # SQL queries & analysis
-└── README.md                         # Project documentation
