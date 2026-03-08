@@ -46,6 +46,7 @@ The goal is to provide **actionable insights** for healthcare organizations, ins
 
 ---
 
+```text
 medical-malpractice-sql-analysis
 │
 ├── data
