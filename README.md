@@ -1,8 +1,8 @@
 # 🏥 Medical Malpractice Claims Analysis
 
-[![GitHub Repo Size](https://img.shields.io/github/repo-size/hkhushzad/medical-malpractice-sql-analysis?style=flat-square)](https://github.com/hkhushzad/medical-malpractice-sql-analysis)
-[![License](https://img.shields.io/github/license/hkhushzad/medical-malpractice-sql-analysis?style=flat-square)](https://github.com/hkhushzad/medical-malpractice-sql-analysis/blob/main/LICENSE)
-[![SQL](https://img.shields.io/badge/Skill-SQL-blue?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![SQL / PostgreSQL](https://img.shields.io/badge/Skill-SQL%20%2F%20PostgreSQL-blue?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)  
+[![Data Analysis](https://img.shields.io/badge/Skill-Data%20Analysis-green?style=flat-square&logo=tableau&logoColor=white)](https://www.tableau.com/)  
+[![SQL Queries](https://img.shields.io/badge/Skill-SQL%20Queries-orange?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/docs/current/sql.html)
 
 ---
 
@@ -59,7 +59,7 @@ No additional configuration is needed — just open and run the file to see the 
 
 ---
 
-## medical-malpractice-sql-analysis
+medical-malpractice-sql-analysis
 │
 ├── data
 │   ├── medicalmalpractice.csv        # Dataset of medical malpractice claims
