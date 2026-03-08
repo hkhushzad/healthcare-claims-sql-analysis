@@ -31,18 +31,6 @@ The goal is to provide **actionable insights** for healthcare organizations, ins
 
 ---
 
-## 📂 Project Structure
-
-medical-malpractice-sql-analysis
-│
-├── data
-│   ├── medicalmalpractice.csv        # Dataset of medical malpractice claims
-│   └── .gitkeep                      # Placeholder for folder structure
-├── medical_malpractice_claims_analysis.sql   # SQL queries & analysis
-└── README.md                         # Project documentation
-
----
-
 ## 📊 Dataset Columns
 | Column           | Description                                                         |
 | ---------------- | ------------------------------------------------------------------- |
@@ -67,3 +55,14 @@ Generate summary tables and insights
 No additional configuration is needed — just open and run the file to see the results.
 
 ---
+
+## 📂 Project Structure
+
+```text
+medical-malpractice-sql-analysis
+│
+├── data
+│   ├── medicalmalpractice.csv        # Dataset of medical malpractice claims
+│   └── .gitkeep                      # Placeholder for folder structure
+├── medical_malpractice_claims_analysis.sql   # SQL queries & analysis
+└── README.md                         # Project documentation
