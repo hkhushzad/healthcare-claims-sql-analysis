@@ -7,22 +7,28 @@
 ---
 
 ## 🌟 Project Overview
-Conducts structured analysis of medical malpractice claims data to evaluate patterns in claim severity, payout distributions, medical specialties, insurance types, and legal representation
+- Conducts structured analysis of medical malpractice claims data to evaluate patterns in claim severity, payout distributions,
+  medical specialties, insurance types, and legal representation
 
-Focuses on identifying key drivers of healthcare cost variation and risk exposure across clinical and demographic factors
+- Focuses on identifying key drivers of healthcare cost variation and risk exposure across clinical and demographic factors
 
-Translates raw claims data into actionable insights on healthcare cost behavior and system-level risk trends
-Supports interpretation of findings relevant to healthcare financing, insurance operations, and policy-oriented decision-making
+- Translates raw claims data into actionable insights on healthcare cost behavior and system-level risk trends
+- Supports interpretation of findings relevant to healthcare financing, insurance operations, and policy-oriented decision-making
 
 ---
 ## 🎯 Analytical Approach
 
-Established analytical dataset by creating the claims_data table and importing medicalmalpractice.csv for structured evaluation
-Performed data quality assessment to identify and evaluate missing or inconsistent values across all variables
-Conducted descriptive statistical analysis to examine claim distributions by insurance type, medical specialty, and gender, including average, minimum, maximum, and high-value claims
-Evaluated demographic patterns across age groups, marital status, gender, and attorney representation to identify variation in claim outcomes
-Performed specialty-level financial analysis to identify high-cost medical fields based on total and average claim amounts
-Developed aggregated summary tables to support interpretation of healthcare cost drivers and risk distribution patterns
+- Established analytical dataset by creating the `claims_data` table and importing `medicalmalpractice.csv` for structured evaluation  
+
+- Performed data quality assessment to identify and evaluate missing or inconsistent values across all variables  
+
+- Conducted descriptive statistical analysis to examine claim distributions by insurance type, medical specialty, and gender, including average, minimum, maximum, and high-value claims  
+
+- Evaluated demographic patterns across age groups, marital status, gender, and attorney representation to identify variation in claim outcomes  
+
+- Performed specialty-level financial analysis to identify high-cost medical fields based on total and average claim amounts  
+
+- Developed aggregated summary tables to support interpretation of healthcare cost drivers and risk distribution patterns  
 
 ---
 
