@@ -7,19 +7,22 @@
 ---
 
 ## 🌟 Project Overview
-This project analyzes medical malpractice claims data to identify patterns in claim severity, payout amounts, medical specialties, insurance type, and legal representation.
-The objective is to generate healthcare cost and risk insights relevant to healthcare organizations, insurers, and policy-oriented stakeholders.
+Conducts structured analysis of medical malpractice claims data to evaluate patterns in claim severity, payout distributions, medical specialties, insurance types, and legal representation
+
+Focuses on identifying key drivers of healthcare cost variation and risk exposure across clinical and demographic factors
+
+Translates raw claims data into actionable insights on healthcare cost behavior and system-level risk trends
+Supports interpretation of findings relevant to healthcare financing, insurance operations, and policy-oriented decision-making
 
 ---
+## 🎯 Analytical Approach
 
-## 🎯 Project Goals
-
-Dataset Setup: Create claims_data table and import medicalmalpractice.csv for structured analysis.
-Data Quality: Identify and assess missing or inconsistent values across all variables.
-Descriptive Analysis: Analyze claim distributions by insurance type, specialty, and gender; calculate average, minimum, maximum, and high-value claims; assess severity patterns.
-Demographic Insights: Evaluate trends across age groups, marital status, gender, and attorney representation.
-Specialty Financial Analysis: Identify specialties with highest total and average claim costs; examine cost distribution across medical fields.
-Aggregated Insights: Produce summary tables to support interpretation of healthcare cost and risk drivers.
+Established analytical dataset by creating the claims_data table and importing medicalmalpractice.csv for structured evaluation
+Performed data quality assessment to identify and evaluate missing or inconsistent values across all variables
+Conducted descriptive statistical analysis to examine claim distributions by insurance type, medical specialty, and gender, including average, minimum, maximum, and high-value claims
+Evaluated demographic patterns across age groups, marital status, gender, and attorney representation to identify variation in claim outcomes
+Performed specialty-level financial analysis to identify high-cost medical fields based on total and average claim amounts
+Developed aggregated summary tables to support interpretation of healthcare cost drivers and risk distribution patterns
 
 ---
 
