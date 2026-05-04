@@ -1,67 +1,72 @@
-# 🏥 Medical Malpractice Claims Analysis
+# Medical Malpractice Claims Analysis
 
-[![SQL / PostgreSQL](https://img.shields.io/badge/Skill-SQL%20%2F%20PostgreSQL-blue?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)  
-[![Data Analysis](https://img.shields.io/badge/Skill-Data%20Analysis-green?style=flat-square&logo=tableau&logoColor=white)](https://www.tableau.com/)  
-[![SQL Queries](https://img.shields.io/badge/Skill-SQL%20Queries-orange?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/docs/current/sql.html)
+[![SQL](https://img.shields.io/badge/Skill-SQL-blue?style=flat-square&logo=postgresql&logoColor=white)]()  
+[![Data Analysis](https://img.shields.io/badge/Skill-Data%20Analysis-green?style=flat-square)]()  
+[![Healthcare Analytics](https://img.shields.io/badge/Focus-Healthcare%20Risk-orange?style=flat-square)]()  
 
 ---
 
 ## 🌟 Project Overview
-- Conducts structured analysis of medical malpractice claims data to evaluate patterns in claim severity, payout distributions,
-  medical specialties, insurance types, and legal representation
 
-- Focuses on identifying key drivers of healthcare cost variation and risk exposure across clinical and demographic factors
+- Conducts structured analysis of medical malpractice claims data to evaluate patterns in claim severity, payout distributions, medical specialties, insurance types, and legal representation  
 
-- Translates raw claims data into actionable insights on healthcare cost behavior and system-level risk trends
-- Supports interpretation of findings relevant to healthcare financing, insurance operations, and policy-oriented decision-making
+- Focuses on identifying key drivers of healthcare cost variation and risk exposure across clinical and demographic factors  
+
+- Translates raw claims data into actionable insights on healthcare cost behavior and system-level risk trends  
+
+- Supports interpretation of findings relevant to healthcare financing, insurance operations, and policy-oriented decision-making  
 
 ---
+
+## 📂 Dataset Variables
+
+| Variable | Description |
+|----------|-------------|
+| Amount | Total claim payment amount in USD |
+| Severity | Severity of injury (1 = emotional trauma, 9 = death) |
+| Age | Age of claimant in years |
+| Private Attorney | Indicates whether claimant had legal representation |
+| Marital Status | Marital status of claimant |
+| Specialty | Physician specialty involved in the case |
+| Insurance | Type of medical insurance coverage |
+| Gender | Gender of claimant |
+
+---
+
 ## 🎯 Analytical Approach
 
-- Established analytical dataset by creating the `claims_data` table and importing `medicalmalpractice.csv` for structured evaluation  
+- Established analytical dataset by creating structured SQL tables and importing raw claims data for evaluation  
 
-- Performed data quality assessment to identify and evaluate missing or inconsistent values across all variables  
+- Performed data quality assessment to identify missing, inconsistent, or incomplete records across variables  
 
-- Conducted descriptive statistical analysis to examine claim distributions by insurance type, medical specialty, and gender, including average, minimum, maximum, and high-value claims  
+- Conducted descriptive statistical analysis of claim distributions across insurance type, specialty, and demographic factors  
 
-- Evaluated demographic patterns across age groups, marital status, gender, and attorney representation to identify variation in claim outcomes  
+- Evaluated severity-weighted financial patterns to understand variation in claim outcomes  
 
-- Performed specialty-level financial analysis to identify high-cost medical fields based on total and average claim amounts  
+- Analyzed demographic influences including age, gender, marital status, and legal representation  
 
-- Developed aggregated summary tables to support interpretation of healthcare cost drivers and risk distribution patterns  
+- Aggregated findings into summary tables to support interpretation of cost and risk drivers  
+
+---
+
+## 📊 Key Insights
+
+- Claim severity is strongly associated with higher payout amounts across cases  
+
+- Medical specialty is a major driver of cost variation and financial exposure  
+
+- Legal representation shows measurable differences in claim outcomes  
+
+- Significant variability exists across demographic and insurance categories  
 
 ---
 
 ## 💻 Skills Demonstrated
 
-SQL & Data Analysis: Data querying, aggregation, and statistical summaries
-Data Cleaning & Validation: Identification and handling of missing or inconsistent data
-Healthcare Data Interpretation: Analysis of cost, risk, and utilization patterns
-Workflow Organization: Structured, reproducible analysis using version control (GitHub)
-Reporting & Insight Generation: Translating raw data into meaningful healthcare insights
+- SQL-based data extraction, joins, and aggregation  
+- Healthcare claims data cleaning and validation  
+- Risk and cost pattern identification  
+- Structured analytical reporting  
+- Healthcare system interpretation (insurance + liability context)  
 
 ---
-
-## 📊 Dataset Columns
-
-| Column           | Description                                                                 |
-| ---------------- | --------------------------------------------------------------------------- |
-| Amount           | Amount of the claim payment in dollars                                      |
-| Severity         | The severity rating of damage to the patient, from 1 (emotional trauma) to 9 (death) |
-| Age              | Age of the claimant in years                                                |
-| Private Attorney | Whether the claimant was represented by a private attorney                 |
-| Marital Status   | Marital status of the claimant                                              |
-| Specialty        | Specialty of the physician involved in the lawsuit                          |
-| Insurance        | Type of medical insurance carried by the patient                            |
-| Gender           | Patient gender                                                              |
-
----
-
-```text
-medical-malpractice-sql-analysis
-│
-├── data
-│   ├── medicalmalpractice.csv        # Dataset of medical malpractice claims
-│   └── .gitkeep                      # Placeholder for folder structure
-├── medical_malpractice_claims_analysis.sql   # SQL queries & analysis
-└── README.md                         # Project documentation
