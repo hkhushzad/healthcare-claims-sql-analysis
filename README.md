@@ -7,27 +7,29 @@
 ---
 
 ## 🌟 Project Overview
-This project analyzes **medical malpractice claims data** to uncover trends in **claim amounts, medical specialties, and the influence of private attorneys**.  
-The goal is to provide **actionable insights** for healthcare organizations, insurance providers, and legal professionals.
+This project analyzes medical malpractice claims data to identify patterns in claim severity, payout amounts, medical specialties, insurance type, and legal representation.
+The objective is to generate healthcare cost and risk insights relevant to healthcare organizations, insurers, and policy-oriented stakeholders.
 
 ---
 
 ## 🎯 Project Goals
 
-- **Dataset Setup:** Create `claims_data` table and import `medicalmalpractice.csv`.  
-- **Data Quality:** Check for missing values in all columns.  
-- **Descriptive Analysis:** Summarize claims by insurance, specialty, gender; calculate avg/min/max amounts and high-value claims; compute average severity.  
-- **Demographic Insights:** Examine attorney involvement, age groups, marital status, and gender differences.  
-- **Specialty Financials:** Identify top specialties by total and average claim costs; analyze cost vs. claim distribution.  
-- **Aggregated Insights:** Provide summary tables for actionable insights across demographics, insurance, specialty, and attorney involvement.
+Dataset Setup: Create claims_data table and import medicalmalpractice.csv for structured analysis.
+Data Quality: Identify and assess missing or inconsistent values across all variables.
+Descriptive Analysis: Analyze claim distributions by insurance type, specialty, and gender; calculate average, minimum, maximum, and high-value claims; assess severity patterns.
+Demographic Insights: Evaluate trends across age groups, marital status, gender, and attorney representation.
+Specialty Financial Analysis: Identify specialties with highest total and average claim costs; examine cost distribution across medical fields.
+Aggregated Insights: Produce summary tables to support interpretation of healthcare cost and risk drivers.
 
 ---
 
 ## 💻 Skills Demonstrated
-- **SQL & Data Analysis:** Data cleaning, aggregation, and advanced queries  
-- **Data Management:** Proper dataset organization and reproducible workflow  
-- **Professional GitHub Workflow:** Version control, commits, and documentation  
-- **Data Interpretation:** Summarizing results for actionable business insights
+
+SQL & Data Analysis: Data querying, aggregation, and statistical summaries
+Data Cleaning & Validation: Identification and handling of missing or inconsistent data
+Healthcare Data Interpretation: Analysis of cost, risk, and utilization patterns
+Workflow Organization: Structured, reproducible analysis using version control (GitHub)
+Reporting & Insight Generation: Translating raw data into meaningful healthcare insights
 
 ---
 
